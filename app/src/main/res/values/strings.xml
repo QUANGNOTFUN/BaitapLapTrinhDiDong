@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BaitapLapTrinhDiDong</string>
+    <string name="default_web_client_id">127664530610-3ng3r4pndnnh082au1bj4slag5qgt9ii.apps.googleusercontent.com</string>
+
 </resources>

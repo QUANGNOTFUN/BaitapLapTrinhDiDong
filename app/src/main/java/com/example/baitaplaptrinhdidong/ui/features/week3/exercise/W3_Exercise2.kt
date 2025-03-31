@@ -1,4 +1,4 @@
-package com.example.baitaplaptrinhdidong.ui.screens.components
+package com.example.baitaplaptrinhdidong.ui.features.week3.exercise
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.baitaplaptrinhdidong.R
-import com.example.baitaplaptrinhdidong.ui.screens.BaseScreen
+import com.example.baitaplaptrinhdidong.ui.base.BaseScreen
 import kotlinx.coroutines.delay
 
 @Composable
@@ -55,7 +55,7 @@ fun W3_Exercise2(navController: NavController) {
         ) {
             Spacer(Modifier.weight(0.6f))
             Image(
-                painter = painterResource(R.drawable.w3bai2),
+                painter = painterResource(R.drawable.ic_logo_uth),
                 contentDescription = "Icon",
                 modifier = Modifier
                     .fillMaxWidth()

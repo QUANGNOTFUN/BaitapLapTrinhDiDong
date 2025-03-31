@@ -1,17 +1,14 @@
-package com.example.baitaplaptrinhdidong.ui.screens.components
+package com.example.baitaplaptrinhdidong.ui.features.week4.exercise
 
-import android.icu.text.ListFormatter.Width
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -19,7 +16,6 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -48,14 +44,10 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import coil.compose.AsyncImage
 import com.example.baitaplaptrinhdidong.R
 import com.example.baitaplaptrinhdidong.data.models.Task
-import com.example.baitaplaptrinhdidong.ui.screens.BaseScreen
-import com.example.baitaplaptrinhdidong.viewModels.TasksViewModel
-import gen._base._base_java__assetres.srcjar.R.id.title
-import org.chromium.base.Flag
-import org.tensorflow.lite.support.label.Category
+import com.example.baitaplaptrinhdidong.ui.base.BaseScreen
+import com.example.baitaplaptrinhdidong.ui.features.week4.TasksViewModel
 
 @Composable
 fun W4_Exercise2(navController: NavController) {

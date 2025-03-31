@@ -1,4 +1,4 @@
-package com.example.baitaplaptrinhdidong.ui.screens
+package com.example.baitaplaptrinhdidong.ui.base
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.RowScope

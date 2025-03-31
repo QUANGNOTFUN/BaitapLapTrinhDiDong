@@ -1,4 +1,4 @@
-package com.example.baitaplaptrinhdidong.ui.screens.components
+package com.example.baitaplaptrinhdidong.ui.features.week4.exercise
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -39,7 +39,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.baitaplaptrinhdidong.R
-import com.example.baitaplaptrinhdidong.ui.screens.BaseScreen
+import com.example.baitaplaptrinhdidong.ui.base.BaseScreen
 
 @Composable
 fun W4_Exercise1(navController: NavController) {

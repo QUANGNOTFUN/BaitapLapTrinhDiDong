@@ -1,4 +1,4 @@
-package com.example.baitaplaptrinhdidong.ui.screens
+package com.example.baitaplaptrinhdidong.ui.features.week1
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.baitaplaptrinhdidong.R
-import com.example.baitaplaptrinhdidong.ui.screens.BaseScreen
+import com.example.baitaplaptrinhdidong.ui.base.BaseScreen
 
 
 @OptIn(ExperimentalMaterial3Api::class)

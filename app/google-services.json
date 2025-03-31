@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "127664530610",
+    "project_id": "baitaplaptrinhdidong-1c982",
+    "storage_bucket": "baitaplaptrinhdidong-1c982.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127664530610:android:51052366e300ef715155ab",
+        "android_client_info": {
+          "package_name": "com.example.baitaplaptrinhdidong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127664530610-9urvh14lbbem262lhq399mtt6okfgdsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baitaplaptrinhdidong",
+            "certificate_hash": "2c7748876edcd1deacd6fc893774e548fc7152b6"
+          }
+        },
+        {
+          "client_id": "127664530610-3ng3r4pndnnh082au1bj4slag5qgt9ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB91eAlkpKIuHcEf-GQObFgKFjJVLRrQOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127664530610-3ng3r4pndnnh082au1bj4slag5qgt9ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

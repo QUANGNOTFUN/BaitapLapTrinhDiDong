@@ -5,8 +5,28 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.baitap.screens.MainScreen
-import com.example.baitaplaptrinhdidong.ui.screens.*
-import com.example.baitaplaptrinhdidong.ui.screens.components.*
+import com.example.baitaplaptrinhdidong.ui.features.week2.exercise.W2_Exercise1
+import com.example.baitaplaptrinhdidong.ui.features.week2.exercise.W2_Exercise2
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Ex1_Page1
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Ex1_Page2
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Ex2_Page1
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Ex2_Page2
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Ex2_Page3
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Exercise1
+import com.example.baitaplaptrinhdidong.ui.features.week3.exercise.W3_Exercise2
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Ex1_Page1
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Ex1_Page2
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Ex1_Page3
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Ex2_Page1
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Ex2_Page2
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Exercise1
+import com.example.baitaplaptrinhdidong.ui.features.week4.exercise.W4_Exercise2
+import com.example.baitaplaptrinhdidong.ui.features.week1.Week1
+import com.example.baitaplaptrinhdidong.ui.features.week2.Week2
+import com.example.baitaplaptrinhdidong.ui.features.week3.Week3
+import com.example.baitaplaptrinhdidong.ui.features.week4.Week4
+import com.example.baitaplaptrinhdidong.ui.features.week5.Week5
+import com.example.baitaplaptrinhdidong.ui.features.week5.detail.W5_InfoUserScreen
 
 @Composable
 fun AppNavigation() {
@@ -47,5 +67,8 @@ fun AppNavigation() {
                     val query = backStackEntry.arguments?.getString("query")?.toIntOrNull() ?: 0
                     W4_Ex2_Page2(navController, query)
                 }
+        // Tuần 5
+        composable("week_5") { Week5(navController) }
+            composable("w5_info_user") { W5_InfoUserScreen(navController) }
     }
 }
