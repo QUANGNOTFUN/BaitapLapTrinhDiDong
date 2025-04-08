@@ -27,6 +27,8 @@ import com.example.baitaplaptrinhdidong.ui.features.week3.Week3
 import com.example.baitaplaptrinhdidong.ui.features.week4.Week4
 import com.example.baitaplaptrinhdidong.ui.features.week5.Week5
 import com.example.baitaplaptrinhdidong.ui.features.week5.detail.W5_InfoUserScreen
+import com.example.baitaplaptrinhdidong.ui.features.week6.W6_AddScreen
+import com.example.baitaplaptrinhdidong.ui.features.week6.W6_ListScreen
 
 @Composable
 fun AppNavigation() {
@@ -70,5 +72,9 @@ fun AppNavigation() {
         // Tuần 5
         composable("week_5") { Week5(navController) }
             composable("w5_info_user") { W5_InfoUserScreen(navController) }
+
+        // Tuần 6
+//        composable("week_6") { W6_ListScreen(navController) }
+//            composable("w6_add_screen") { W6_AddScreen(navController) }
     }
 }

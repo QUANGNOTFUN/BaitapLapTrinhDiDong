@@ -19,7 +19,7 @@ fun MainScreen(navController: NavController) {
             modifier = Modifier.padding(padding).fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            LazyButtonNav(navController, 5, "Tuần", "week")
+            LazyButtonNav(navController, 6, "Tuần", "week")
         }
     }
 }
